@@ -2,6 +2,9 @@ package de.cosh.azure.model;
 
 import java.util.Date;
 
+/**
+ * Created by cosh on 06.12.2016.
+ */
 public class PersonBuilder {
     private String name;
     private Long salary;
