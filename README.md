@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cosh/spring-boot-sqlserver-test.svg?branch=master)](https://travis-ci.org/cosh/spring-boot-sqlserver-test)
+
 # spring boot sqlserver test on Azure
 
 this is a small test project in order to verify the jdbc connection string for a MSSQL server on azure
