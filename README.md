@@ -9,11 +9,12 @@ this is a small test project in order to verify the jdbc connection string for a
 
 ## run
 set the following config parameter:
-* sqlserver.test.database
+* sqlserver.test.database (the database name)
+* sqlserver.test.node (the database host/node)
 * spring.datasource.username
 * spring.datasource.password
 
-<pre><code>java -jar target/sqlserver-0.0.1-SNAPSHOT.jar --sqlserver.test.database=YOURDATABASENAME --spring.datasource.username=YOURUSERNAME --spring.datasource.password=YOURPW
+<pre><code>java -jar target/sqlserver-0.0.1-SNAPSHOT.jar --sqlserver.test.node=YOURDATABASENODE --sqlserver.test.database=YOURDATABASENAME --spring.datasource.username=YOURUSERNAME --spring.datasource.password=YOURPW
 </code></pre>
 
 ## test
